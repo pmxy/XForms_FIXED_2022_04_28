@@ -1,0 +1,13 @@
+--- xforms-1.2.4/lib/xpopup.c	2014-06-28 22:34:30.000000000 +0200
++++ xforms-1.2.4-fixed/lib/xpopup.c	2022-04-24 03:48:50.267358002 +0200
+@@ -2083,7 +2083,9 @@
+                                 fli_visual( fl_vmode ), vmask, &xswa );
+ 
+         XSetTransientForHint( flx->display, m->win, fl_root );
+-        XStoreName( flx->display, m->win, m->title );
++    
++        if ( m->title && *m->title )
++            XStoreName( flx->display, m->win, m->title );
+ 
+         if ( ! m->gc_active && ! m->gc_inactive )
+         {
