@@ -25,3 +25,26 @@ patch -s -p0 < xforms-1.2.4.X11-FIX.patch
 ```
 Then follow XForms the build instructions.
 
+----------
+Direct link to the useful files :
+Binary files, XForms WISIWIG editor fdesigner :libforms-bin
+
+https://github.com/pmxy/XForms_FIXED_2022_04_28/blob/master/libforms-bin_1.2.4-1ubuntu1_amd64.deb
+
+
+Development and lib files : libforms-dev
+
+https://github.com/pmxy/XForms_FIXED_2022_04_28/blob/master/libforms-dev_1.2.4-1ubuntu1_amd64.deb
+
+
+OpenGL extension : libformsgl-dev
+
+https://github.com/pmxy/XForms_FIXED_2022_04_28/blob/master/libformsgl-dev_1.2.4-1ubuntu1_amd64.deb
+
+
+Documentation : libforms-doc
+
+https://github.com/pmxy/XForms_FIXED_2022_04_28/blob/master/libforms-doc_1.2.4-1ubuntu1_all.deb
+
+
+
